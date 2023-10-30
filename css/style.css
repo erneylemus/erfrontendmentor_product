@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+
+
+:root{
+--Dark-cyan: hsl(158, 36%, 37%);
+--Cream: hsl(30, 38%, 92%);
+--Very-dark-blue: hsl(212, 21%, 14%);
+--Dark-grayish-blue: hsl(228, 12%, 48%);
+--White: hsla(0, 0%, 100%);
+--Font-size-P: 14px;
+--font-family-primary: 'Montserrat', sans-serif;
+--font-family-second: 'fraunces', serif;
+}
+
+*{
+    font-family: var(--font-family-primary);
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--Cream);
+}
+
+h2{
+    font-family: var(--font-family-second);
+}
+
+p{
+    font-size: 14px;
+}
+
+.container{
+    width: 500px;
+    height: 100%;
+    outline: 2px solid greenyellow;
+}
+
+.content{
+    display: felx;
+}
+
+.content_img{
+    background-image: url("./images/image-product-desktop.jpg");
+}
